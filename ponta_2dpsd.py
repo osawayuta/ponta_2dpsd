@@ -240,7 +240,7 @@ for line in FH1:
                         j = int(((h-h_min)/dQ2))
                     elif (axis2=="b"):
                         j = int(((k-k_min)/dQ2))
-                    elif (axis2=="l"):
+                    elif (axis2=="c"):
                         j = int(((l-l_min)/dQ2))
 
                     Intensity[i][j]+=(float(values[2])/countTime -pixel_BG[Xtemp*pixelNumX+Ytemp]/countTimeBG)/pixel_sensitivity[Xtemp*pixelNumX+Ytemp]
